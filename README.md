@@ -1,6 +1,6 @@
 # Pareto paths
 
-ParetoLab compares paths through a small graph with two supplied costs. It
+This implementation compares paths through a small graph with two supplied costs. It
 finds every nondominated path, the paths a weighted sum can select, and the
 paths selected by a hard cost limit. A separate calculation allows lotteries
 over whole paths subject to an expected cost limit. These choices can differ.
