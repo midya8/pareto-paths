@@ -1,4 +1,4 @@
-# ParetoLab
+# Pareto paths
 
 ParetoLab compares paths through a small graph with two supplied costs. It
 finds every nondominated path, the paths a weighted sum can select, and the
