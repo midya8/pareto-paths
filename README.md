@@ -45,7 +45,7 @@ paretolab demo
 
 ## Model and terminology
 
-2–7 ordered nodes, <=12 forward arcs, two additive nonnegative integer minimization costs 0..20, <=64 suffix paths per node. Start 0, goal `n-1`. Parallel edges are valid and identify different paths. A disconnected graph is valid and reports no feasible optimum.
+2-7 ordered nodes, <=12 forward arcs, two additive nonnegative integer minimization costs 0..20, <=64 suffix paths per node. Start 0, goal `n-1`. Parallel edges are valid and identify different paths. A disconnected graph is valid and reports no feasible optimum.
 
 Here **positive-weight supported** means optimal for some `0 < t < 1`. **Closed support** separately includes `t=0,1`; a dominated path can be an endpoint minimizer, but never becomes Pareto. Nondominated collinear interior points count as supported even if optimal only at one interior weight. Other literature sometimes uses different supportedness conventions.
 
